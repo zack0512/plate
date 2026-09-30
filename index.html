@@ -181,7 +181,7 @@
                 <div class="flex items-center justify-between gap-2 pt-1">
                     <button id="applyDefaultBtn" class="py-2 px-3 rounded-xl glass-card text-xs text-slate-300 hover:text-white hover:bg-white/10 flex items-center space-x-1 transition-all">
                         <i class="fa-solid fa-list-ol text-purple-400"></i>
-                        <span>載入預設(1-14, 21-35號)</span>
+                        <span>載入預設(1-15, 21-34號)</span>
                     </button>
 
                     <button id="updateOptionsBtn" class="py-2 px-4 rounded-xl bg-pink-500 hover:bg-pink-600 text-white font-bold text-xs shadow-md shadow-pink-500/20 flex items-center space-x-1.5 transition-all active:scale-95">
@@ -330,8 +330,8 @@
         // Default Option Generator: 1-14 and 21-35
         function generateDefaultOptions() {
             const list = [];
-            for (let i = 1; i <= 14; i++) list.push(`${i} 號`);
-            for (let i = 21; i <= 35; i++) list.push(`${i} 號`);
+            for (let i = 1; i <= 15; i++) list.push(`${i} 號`);
+            for (let i = 21; i <= 34; i++) list.push(`${i} 號`);
             return list;
         }
 
